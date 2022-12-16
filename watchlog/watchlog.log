@@ -1,0 +1,5 @@
+ALERT Setting the name of the VM: systemd_systemdOtus_1671186241591_56914\n
+==> systemdOtus: Clearing ALERT any previously set network interfaces...\n
+==> systemdOtus: ALERT Preparing network interfaces based on configuration...\n
+    systemdOtus: Adapter 1: nat\n
+    systemdOtus: Adapter ALERT 2: intnet
