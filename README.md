@@ -5,3 +5,8 @@
 Необходимо выполнить "systemctl start watchlog.timer" и можно проверять "tail -f /var/log/messages"
 
 #### Из репозитория epel установить spawn-fcgi и переписать init-скрипт на unit-файл
+
+Задание сделано по инструкции,все действия интегрированы в Vagrantfile и сопутствующие файлы. Необходимо выполнить "systemctl start spawn-fcgi.service" и можно проверять "systemctl status spawn-fcgi.service"
+
+#### Дополнить unit-файл httpd возможностью запустить несколько инстансов сервера с разными конфигурационными файлами.
+
